@@ -2,5 +2,19 @@
   "dependencies": {
     "@notionhq/client": "^2.2.14",
     "express": "^4.18.2"
-  }
+  },
+  "scripts": {
+    "start": "node server.js",
+    "devStart": "nodemon server.js"
+  },
+  "name": "my-notion",
+  "description": "This project will be my first integration with Notion's API on a simple database\"",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
